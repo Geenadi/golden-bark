@@ -276,6 +276,18 @@ export default function App() {
     window.scrollTo(0, 0);
     const handleLoad = () => window.scrollTo(0, 0);
     window.addEventListener('load', handleLoad);
+
+    // Ensure open browser tab uses the original favicon.png
+    const updateFavicon = () => {
+      document.querySelectorAll("link[rel*='icon']").forEach(el => el.remove());
+      const link = document.createElement('link');
+      link.rel = 'icon';
+      link.type = 'image/png';
+      link.href = '/favicon.png';
+      document.head.appendChild(link);
+    };
+    updateFavicon();
+
     return () => window.removeEventListener('load', handleLoad);
   }, []);
 
