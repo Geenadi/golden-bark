@@ -438,8 +438,8 @@ export default function Products() {
                     <tr key={grade}>
                       <td><strong className="compare-grade">{grade}</strong></td>
                       <td><span className="badge" style={{ fontSize: '10px' }}>{tier}</span></td>
-                      <td style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>{thick}</td>
-                      <td style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>{best}</td>
+                      <td className="compare-cell-value">{thick}</td>
+                      <td className="compare-cell-value">{best}</td>
                       <td><span className="compare-pill"><span className="avail-dot" />{avail}</span></td>
                     </tr>
                   ))}
@@ -478,11 +478,11 @@ export default function Products() {
                   </div>
                   <div className="compare-table__cell">
                     <span className="compare-table__label">Bark Thickness</span>
-                    <span>{thick}</span>
+                    <span className="compare-table__value">{thick}</span>
                   </div>
                   <div className="compare-table__cell">
                     <span className="compare-table__label">Best For</span>
-                    <span>{best}</span>
+                    <span className="compare-table__value">{best}</span>
                   </div>
                   <div className="compare-table__cell compare-table__cell--highlight">
                     <span className="compare-table__label">Availability</span>

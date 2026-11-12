@@ -44,8 +44,8 @@
 .grade-card-desc{color:#684a31;font-size:.86rem;line-height:1.75;margin-bottom:25px}
 .grade-card-specs-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;border-top:1px solid #d7c09f;padding-top:15px;margin-top:auto}
 .grade-card-spec{display:flex;flex-direction:column;gap:2px}
-.spec-label{font-size:8px;letter-spacing:1.35px;text-transform:uppercase;color:#9b6e44;font-weight:700}
-.spec-value{font-size:.78rem;color:#52341d}
+.spec-label{font-size:8.5px;letter-spacing:1.4px;text-transform:uppercase;color:#8d5124;font-weight:700}
+.spec-value{font-size:.86rem;color:#28160c;font-weight:600}
 .grade-card-action{display:flex;align-items:center;gap:8px;color:#8b5128;font-size:10px;font-weight:700;letter-spacing:1.3px;text-transform:uppercase;margin-top:20px}
 .action-arrow{transition:transform .2s}
 .grade-card:hover .action-arrow{transform:translateX(5px)}
@@ -59,11 +59,12 @@
 .compare-section .section-title{color:#f2e2ca}
 .compare-section .compare-table-wrap{border:1px solid rgba(215,168,105,.38);overflow:hidden}
 .compare-table{width:100%;border-collapse:collapse}
-.compare-table th{background:#382217;color:#dda668;padding:18px 20px;text-align:left;font-size:9px;letter-spacing:1.8px;text-transform:uppercase}
-.compare-table td{padding:18px 20px;border-top:1px solid rgba(239,211,173,.13);color:#d6bea0;font-size:.86rem}
-.compare-table tr:hover td{background:rgba(213,157,87,.06)}
-.compare-grade{color:#e1ad70;font:1.2rem var(--font-display)}
-.compare-pill,.badge{display:inline-flex;padding:5px 9px;border:1px solid rgba(215,168,105,.3);color:#dcb174;background:rgba(215,168,105,.08);font-size:10px}
+.compare-table th{background:#392115;color:#e8af6e;padding:18px 20px;text-align:left;font-size:9.5px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase}
+.compare-table td{padding:18px 20px;border-top:1px solid rgba(239,211,173,.16);color:#f5ebdc;font-size:.9rem}
+.compare-cell-value{color:#fbf2e6!important;font-size:.92rem!important;font-weight:500;letter-spacing:.2px;line-height:1.5}
+.compare-table tr:hover td{background:rgba(213,157,87,.08)}
+.compare-grade{color:#e6b478;font:500 1.25rem var(--font-display)}
+.compare-pill,.badge{display:inline-flex;padding:5px 9px;border:1px solid rgba(215,168,105,.35);color:#e2ba7e;background:rgba(215,168,105,.1);font-size:10px;font-weight:600}
 .avail-dot{width:6px;height:6px;background:#9fb47a;border-radius:50%;margin:0 7px 0 0}
 .compare-table-mobile{display:none}
 .products-page>section:last-of-type{background:#e8d7bd!important}
@@ -85,8 +86,8 @@
 .modal-description{color:#62452d;line-height:1.85;font-size:.92rem;margin-bottom:27px}
 .modal-specs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#d9c09d;border:1px solid #d9c09d;margin:0 0 26px}
 .modal-spec{padding:16px 18px;background:#ecdfcc;display:flex;flex-direction:column;gap:5px}
-.modal-spec-label{font-size:8px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:#a16839}
-.modal-spec-val{color:#412719;font:1.05rem var(--font-display)}
+.modal-spec-label{font-size:8.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#8f5225}
+.modal-spec-val{color:#201107;font:600 1.15rem var(--font-display)}
 .modal-highlights{display:grid;grid-template-columns:1fr 1fr;gap:12px 25px}
 .modal-highlights li{display:flex;gap:9px;color:#67482f;font-size:.83rem;line-height:1.55}.modal-highlights li svg{color:#a96531;flex:none;margin-top:3px}
 .modal-request{display:inline-flex;align-items:center;gap:10px;padding:15px 20px;background:#a7612d;color:#f9ead4;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-top:30px;transition:transform .2s,background .2s}.modal-request:hover{background:#7d411b;transform:translateY(-2px)}
@@ -109,9 +110,10 @@
 .grade-card-wide .grade-card-body{padding:28px}
 .compare-table-desktop{display:none}
 .compare-table-mobile{display:block}
-.compare-table__row{padding:20px;border-top:1px solid rgba(239,211,173,.13)}
-.compare-table__cell{display:grid;grid-template-columns:115px 1fr;gap:12px;margin:7px 0;color:#d6bea0;font-size:.85rem}
-.compare-table__label{color:#d9a769;text-transform:uppercase;font-size:8px;letter-spacing:1px;font-weight:700}
+.compare-table__row{padding:20px;border-top:1px solid rgba(239,211,173,.16)}
+.compare-table__cell{display:grid;grid-template-columns:120px 1fr;gap:12px;margin:8px 0;color:#f5ebdc;font-size:.88rem}
+.compare-table__label{color:#e2a969;text-transform:uppercase;font-size:8.5px;letter-spacing:1.2px;font-weight:700}
+.compare-table__value{color:#fbf2e6!important;font-size:.9rem!important;font-weight:500}
 .compare-table__value-stack{display:contents}
 .compare-table__eyebrow{display:none}
 .modal-content{padding:28px 22px}
